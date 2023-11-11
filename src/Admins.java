@@ -5,7 +5,7 @@ public class Admins {
     private String email;
     private String password;
 
-    private Admins(
+    public Admins(
             Number id,
             String name,
             String cpf,
@@ -17,5 +17,11 @@ public class Admins {
         this.cpf = cpf;
         this.email = email;
         this.password= password;
+    }
+}
+class AdminsController {
+    public static void main(String[] args){
+        Admins newAdmin = new Admins(1, "admin1", "cpf1", "email1", "password1");
+        System.out.println(newAdmin);
     }
 }

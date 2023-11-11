@@ -17,7 +17,7 @@ public class Client {
     }
 };
 
-class Aplicacao {
+class ClientController {
     public static void main(String[] args){
         Client newClient = new Client(1,"client1","client@gmail.com","12345");
         System.out.println(newClient);
