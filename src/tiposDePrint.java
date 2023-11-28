@@ -1,4 +1,4 @@
-public class TiposDePrint {
+public class tiposDePrint {
     public static void main(String[] args){
         System.out.print("print , não quebra a linha.\n");
         System.out.println("print, quebra a linha");
