@@ -1,4 +1,4 @@
-public class condicoes {
+public class Condicoes {
    public static void main(String[] args){
        int notaP1 = 6;
        int notaP2 = 6;
