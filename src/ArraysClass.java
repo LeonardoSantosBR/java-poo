@@ -13,7 +13,7 @@ public class ArraysClass {
         if(isArrayEqual)
             System.out.println("Os dois arrays são iguais.");
 
-        System.out.println("o index do numero: "+ Arrays.binarySearch(array1, 10));
+        System.out.println("o index do numero: "+ Arrays.binarySearch(array1, n1));
 
         for(int n: array1){ //for para leitura de array.
             System.out.println(n);
