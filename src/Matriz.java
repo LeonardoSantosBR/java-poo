@@ -14,17 +14,18 @@ public class Matriz {
             }
         }
 
-        for(int l = 0; l<linha ; l++){
-            for (int c = 0; c<coluna ; c++){
-                System.out.printf("%d | ", numeros[l][c]);
-            }
-            System.out.printf("%n");
-        }
+//        for(int l = 0; l<linha ; l++){
+//            for (int c = 0; c<coluna ; c++){
+//                System.out.printf("%d | ", numeros[l][c]);
+//            }
+//            System.out.printf("%n");
+//        }
 
         for(int[] n:numeros){
             for (int v:n){
                 System.out.printf("%d | ", v);
             }
+            System.out.printf("%n");
         }
 
         //matriz com valores já iniciados
