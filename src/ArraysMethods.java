@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class ArraysClass {
+public class ArraysMethods {
     public static void main(String[] args){
         int[] array1= {5,2,15,13,43,27,120,90,40,12};
         int[] array2= new int[10];
