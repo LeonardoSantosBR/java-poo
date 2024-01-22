@@ -28,10 +28,7 @@ public class ClassPoo {
         System.out.printf("%nVidas: %d", this.vidas);
         System.out.printf("%nAlerta: %s", (alerta ? "sim" : "não"));
         System.out.printf("%n----------------------------------------------");
-
     }
-
-
 }
 
 
